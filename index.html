@@ -1,0 +1,8 @@
+<!doctype html>
+<meta charset="utf-8"><title>openGS pipeline cache reproduction</title><link rel="icon" href="data:,">
+<style>body{max-width:1000px;margin:40px auto;background:#10231e;color:#e8f6ec;font:16px system-ui;padding:0 24px}button{font:inherit;padding:12px 20px}pre{white-space:pre-wrap;overflow-wrap:anywhere}</style>
+<h1>openGS pipeline cache reproduction</h1>
+<p>212 fixed native WebGPU pipelines. 158 render, 54 compute. No scene construction, rendering, uploads, or Three.js dependency.</p>
+<p>Run once, wait at least four seconds, then reload and run again. Compare with closing Chrome completely and reopening the same profile and URL.</p>
+<p><a style="color:inherit" href="?count=32">32-pipeline control</a> · <a style="color:inherit" href="?count=212">Full 212-pipeline case</a></p>
+<button disabled>Run exact replay</button><pre>Loading captured inputs…</pre><script type="module" src="./replay.js"></script>

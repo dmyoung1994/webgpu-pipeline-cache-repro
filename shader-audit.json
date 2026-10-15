@@ -1,0 +1,301 @@
+{
+  "pipelines": 212,
+  "render": 158,
+  "compute": 54,
+  "moduleObjects": 321,
+  "distinctWGSL": 317,
+  "uniqueWGSLBytes": 6105820,
+  "duplicateModuleObjects": 4,
+  "stageProgramGroups": 204,
+  "additionalPipelinesSharingStagePrograms": 8,
+  "grassCompaction": {
+    "moduleIds": [
+      418,
+      420,
+      422,
+      424,
+      426
+    ],
+    "sourceBytes": [
+      149294,
+      149294,
+      149294,
+      149294,
+      149294
+    ],
+    "labels": [
+      "compute_Grass blade compact"
+    ]
+  },
+  "grassRetainedWind": {
+    "moduleIds": [
+      432,
+      434,
+      436
+    ],
+    "sourceBytes": [
+      7479,
+      7484,
+      7485
+    ],
+    "labels": [
+      "compute_Grass retained wind motion"
+    ]
+  },
+  "treeFamilies": [
+    {
+      "moduleIds": [
+        110,
+        117,
+        125,
+        133,
+        138,
+        144
+      ],
+      "sourceBytes": [
+        9318,
+        9318,
+        9316,
+        9318,
+        9316,
+        9316
+      ],
+      "labels": [
+        null
+      ]
+    },
+    {
+      "moduleIds": [
+        112,
+        119,
+        126,
+        135,
+        141,
+        145
+      ],
+      "sourceBytes": [
+        50382,
+        50383,
+        50383,
+        50379,
+        50381,
+        50382
+      ],
+      "labels": [
+        null
+      ]
+    },
+    {
+      "moduleIds": [
+        114,
+        122,
+        127,
+        136,
+        139,
+        146
+      ],
+      "sourceBytes": [
+        7427,
+        7427,
+        7425,
+        7427,
+        7425,
+        7425
+      ],
+      "labels": [
+        null
+      ]
+    },
+    {
+      "moduleIds": [
+        120,
+        123,
+        132,
+        137,
+        142,
+        147
+      ],
+      "sourceBytes": [
+        7376,
+        7376,
+        7374,
+        7376,
+        7374,
+        7374
+      ],
+      "labels": [
+        null
+      ]
+    },
+    {
+      "moduleIds": [
+        121,
+        124,
+        134,
+        140,
+        143,
+        148
+      ],
+      "sourceBytes": [
+        44568,
+        44569,
+        44569,
+        44569,
+        44568,
+        44568
+      ],
+      "labels": [
+        null
+      ]
+    },
+    {
+      "moduleIds": [
+        240,
+        243,
+        245,
+        248,
+        250,
+        252
+      ],
+      "sourceBytes": [
+        4118,
+        4118,
+        4118,
+        4118,
+        4117,
+        4117
+      ],
+      "labels": [
+        null
+      ]
+    },
+    {
+      "moduleIds": [
+        242,
+        244,
+        247,
+        249,
+        251,
+        253
+      ],
+      "sourceBytes": [
+        4409,
+        4409,
+        4409,
+        4409,
+        4408,
+        4408
+      ],
+      "labels": [
+        null
+      ]
+    },
+    {
+      "moduleIds": [
+        300,
+        307,
+        314,
+        320,
+        325,
+        329
+      ],
+      "sourceBytes": [
+        7608,
+        7608,
+        7607,
+        7608,
+        7607,
+        7607
+      ],
+      "labels": [
+        null
+      ]
+    },
+    {
+      "moduleIds": [
+        301,
+        309,
+        316,
+        321,
+        327,
+        331
+      ],
+      "sourceBytes": [
+        50111,
+        50112,
+        50112,
+        50108,
+        50110,
+        50111
+      ],
+      "labels": [
+        null
+      ]
+    },
+    {
+      "moduleIds": [
+        304,
+        312,
+        317,
+        322,
+        326,
+        332
+      ],
+      "sourceBytes": [
+        5780,
+        5780,
+        5779,
+        5780,
+        5779,
+        5779
+      ],
+      "labels": [
+        null
+      ]
+    },
+    {
+      "moduleIds": [
+        310,
+        313,
+        318,
+        323,
+        328,
+        333
+      ],
+      "sourceBytes": [
+        5731,
+        5731,
+        5730,
+        5731,
+        5730,
+        5730
+      ],
+      "labels": [
+        null
+      ]
+    },
+    {
+      "moduleIds": [
+        311,
+        315,
+        319,
+        324,
+        330,
+        334
+      ],
+      "sourceBytes": [
+        44296,
+        44297,
+        44297,
+        44297,
+        44296,
+        44296
+      ],
+      "labels": [
+        null
+      ]
+    }
+  ],
+  "treeIdentification": "Vertex code contains treeInstance; fragment modules are paired with those vertices by captured pipelines.",
+  "limit": "These counts describe the frozen capture. Similarity groups suggest candidates, not a verified consolidated implementation, current live-course count, or measured speedup."
+}

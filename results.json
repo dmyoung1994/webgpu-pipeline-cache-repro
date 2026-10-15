@@ -1,0 +1,211 @@
+{
+  "date": "2026-10-15",
+  "browser": "Chrome/155.0.8059.41",
+  "hardware": "Windows, NVIDIA RTX 4090, D3D12",
+  "method": "Actual standalone page; no unsafe-WebGPU flag; two required features; dedicated headful installed Chrome, fresh profile per variant, same profile on reload/restart. OS/driver caches retained. Native trace capture enabled. Four-second idle before reload/graceful full-process exit. One series per control, not a statistical benchmark. API batch includes pending native module work, not downloads/device setup.",
+  "runtimeHashes": {
+    "index.html": "f111ab7b652ddb4a72c08343a38bbd3d69005c52efe2a10f8837013fd546a2f9",
+    "replay.js": "f09798fab4d56aa06bb1eb9765e5b41fc20673ee2e210350c2e47eee87adc454",
+    "select.js": "c7f6f67e2e5a95f2fa374a85e89d6df0fa6226ac85abdb15e75dc9dac86a8c55",
+    "capture.bin": "1e116db6b2d8847d3638509b4755d43d9ddc20a126e15b6ebd12c47dad556b98"
+  },
+  "variants": [
+    {
+      "name": "default",
+      "pipelines": 212,
+      "browserArguments": [],
+      "phases": [
+        {
+          "phase": "first",
+          "batchMs": 7713,
+          "deviceReadyMs": 257.89999997615814,
+          "moduleLayoutSubmissionMs": 15.799999952316284,
+          "DXC": 334,
+          "HLSLGeneration": 334,
+          "shaderModuleObjects": 321,
+          "errors": [],
+          "pipelineSetSha256": "567bdf052770b1b50c5f0003e6be003e7a6e07292c7abef4e66a7266964d7516",
+          "gpuChildHasCacheSizeFlag": false,
+          "fallback": false
+        },
+        {
+          "phase": "reload",
+          "batchMs": 7621.600000023842,
+          "deviceReadyMs": 258.40000009536743,
+          "moduleLayoutSubmissionMs": 12.099999904632568,
+          "DXC": 322,
+          "HLSLGeneration": 322,
+          "shaderModuleObjects": 321,
+          "errors": [],
+          "pipelineSetSha256": "567bdf052770b1b50c5f0003e6be003e7a6e07292c7abef4e66a7266964d7516",
+          "gpuChildHasCacheSizeFlag": false,
+          "fallback": false
+        },
+        {
+          "phase": "restart",
+          "batchMs": 4474.299999952316,
+          "deviceReadyMs": 243.10000002384186,
+          "moduleLayoutSubmissionMs": 15.5,
+          "DXC": 220,
+          "HLSLGeneration": 220,
+          "shaderModuleObjects": 321,
+          "errors": [],
+          "pipelineSetSha256": "567bdf052770b1b50c5f0003e6be003e7a6e07292c7abef4e66a7266964d7516",
+          "gpuChildHasCacheSizeFlag": false,
+          "fallback": false
+        }
+      ]
+    },
+    {
+      "name": "subset32",
+      "pipelines": 32,
+      "browserArguments": [],
+      "phases": [
+        {
+          "phase": "first",
+          "batchMs": 2219.5,
+          "deviceReadyMs": 253.20000004768372,
+          "moduleLayoutSubmissionMs": 5,
+          "DXC": 56,
+          "HLSLGeneration": 56,
+          "shaderModuleObjects": 55,
+          "errors": [],
+          "pipelineSetSha256": "0bd07b4175ff6f12b04b9cecfcfb75e1f14a97afedc6d8ac1bade4458da3023c",
+          "gpuChildHasCacheSizeFlag": false,
+          "fallback": false
+        },
+        {
+          "phase": "reload",
+          "batchMs": 64,
+          "deviceReadyMs": 252.69999992847443,
+          "moduleLayoutSubmissionMs": 3.5,
+          "DXC": 0,
+          "HLSLGeneration": 0,
+          "shaderModuleObjects": 55,
+          "errors": [],
+          "pipelineSetSha256": "0bd07b4175ff6f12b04b9cecfcfb75e1f14a97afedc6d8ac1bade4458da3023c",
+          "gpuChildHasCacheSizeFlag": false,
+          "fallback": false
+        },
+        {
+          "phase": "restart",
+          "batchMs": 63.800000071525574,
+          "deviceReadyMs": 246.10000002384186,
+          "moduleLayoutSubmissionMs": 5,
+          "DXC": 0,
+          "HLSLGeneration": 0,
+          "shaderModuleObjects": 55,
+          "errors": [],
+          "pipelineSetSha256": "0bd07b4175ff6f12b04b9cecfcfb75e1f14a97afedc6d8ac1bade4458da3023c",
+          "gpuChildHasCacheSizeFlag": false,
+          "fallback": false
+        }
+      ]
+    },
+    {
+      "name": "browser64",
+      "pipelines": 212,
+      "browserArguments": [
+        "--gpu-disk-cache-size-kb=65536"
+      ],
+      "phases": [
+        {
+          "phase": "first",
+          "batchMs": 8255.399999976158,
+          "deviceReadyMs": 260.3000000715256,
+          "moduleLayoutSubmissionMs": 15.199999928474426,
+          "DXC": 333,
+          "HLSLGeneration": 333,
+          "shaderModuleObjects": 321,
+          "errors": [],
+          "pipelineSetSha256": "567bdf052770b1b50c5f0003e6be003e7a6e07292c7abef4e66a7266964d7516",
+          "gpuChildHasCacheSizeFlag": false,
+          "fallback": false
+        },
+        {
+          "phase": "reload",
+          "batchMs": 8154.100000023842,
+          "deviceReadyMs": 256.89999997615814,
+          "moduleLayoutSubmissionMs": 12,
+          "DXC": 322,
+          "HLSLGeneration": 322,
+          "shaderModuleObjects": 321,
+          "errors": [],
+          "pipelineSetSha256": "567bdf052770b1b50c5f0003e6be003e7a6e07292c7abef4e66a7266964d7516",
+          "gpuChildHasCacheSizeFlag": false,
+          "fallback": false
+        },
+        {
+          "phase": "restart",
+          "batchMs": 4441.100000023842,
+          "deviceReadyMs": 269.7999999523163,
+          "moduleLayoutSubmissionMs": 15.200000047683716,
+          "DXC": 218,
+          "HLSLGeneration": 218,
+          "shaderModuleObjects": 321,
+          "errors": [],
+          "pipelineSetSha256": "567bdf052770b1b50c5f0003e6be003e7a6e07292c7abef4e66a7266964d7516",
+          "gpuChildHasCacheSizeFlag": false,
+          "fallback": false
+        }
+      ]
+    },
+    {
+      "name": "aggressive",
+      "pipelines": 212,
+      "browserArguments": [
+        "--enable-features=AggressiveShaderCacheLimits"
+      ],
+      "phases": [
+        {
+          "phase": "first",
+          "batchMs": 7761.100000023842,
+          "deviceReadyMs": 258.1999999284744,
+          "moduleLayoutSubmissionMs": 16,
+          "DXC": 318,
+          "HLSLGeneration": 318,
+          "shaderModuleObjects": 321,
+          "errors": [],
+          "pipelineSetSha256": "567bdf052770b1b50c5f0003e6be003e7a6e07292c7abef4e66a7266964d7516",
+          "gpuChildHasCacheSizeFlag": false,
+          "fallback": false
+        },
+        {
+          "phase": "reload",
+          "batchMs": 7480.799999952316,
+          "deviceReadyMs": 248.79999995231628,
+          "moduleLayoutSubmissionMs": 12.399999976158142,
+          "DXC": 289,
+          "HLSLGeneration": 289,
+          "shaderModuleObjects": 321,
+          "errors": [],
+          "pipelineSetSha256": "567bdf052770b1b50c5f0003e6be003e7a6e07292c7abef4e66a7266964d7516",
+          "gpuChildHasCacheSizeFlag": false,
+          "fallback": false
+        },
+        {
+          "phase": "restart",
+          "batchMs": 1386.5,
+          "deviceReadyMs": 266.89999997615814,
+          "moduleLayoutSubmissionMs": 16.200000047683716,
+          "DXC": 48,
+          "HLSLGeneration": 48,
+          "shaderModuleObjects": 321,
+          "errors": [],
+          "pipelineSetSha256": "567bdf052770b1b50c5f0003e6be003e7a6e07292c7abef4e66a7266964d7516",
+          "gpuChildHasCacheSizeFlag": false,
+          "fallback": false
+        }
+      ]
+    }
+  ],
+  "scope": "Actual standalone index.html/replay.js/select.js/capture.bin, not a separate replay function injected into a blank page. No app assets, engine rendering or application loading claims.",
+  "effective64MiBBudgetVerified": false,
+  "sourceAudit": "Pipeline descriptors and every resource descriptor, including WGSL bytes, match the original fixed capture exactly. Device requiredFeatures were reduced from 25 to subgroups and texture-formats-tier1. Capture contains module/layout descriptors only.",
+  "limitations": [
+    "GPU cache policy may be workload-, browser-, driver- and backend-specific.",
+    "AggressiveShaderCacheLimits changes both capacity and retention; not a capacity-only experiment.",
+    "The browser-only 64 MiB switch did not reach the GPU child; it is an inconclusive budget control.",
+    "No native Vulkan comparison or full-app load time is required to reproduce this case."
+  ]
+}

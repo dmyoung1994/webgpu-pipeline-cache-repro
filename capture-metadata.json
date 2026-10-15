@@ -1,0 +1,37 @@
+{
+  "sourceCaptureSha256": "b9d374e1544c53e21db4e40620895b331e9ff11d70f88fee97ca59c18049fcb5",
+  "compressedCaptureSha256": "1e116db6b2d8847d3638509b4755d43d9ddc20a126e15b6ebd12c47dad556b98",
+  "compressedBytes": 893066,
+  "pipelines": 212,
+  "render": 158,
+  "compute": 54,
+  "moduleObjects": 321,
+  "distinctWGSL": 317,
+  "requestedFeatures": [
+    "subgroups",
+    "texture-formats-tier1"
+  ],
+  "sampledTextureLimit": 24,
+  "source": "Fixed descriptors and WGSL from the packaged Rangeform/OpenGS course startup. Required features trimmed from 25 to two and reverified. No scene assets or application runtime.",
+  "shaderAudit": {
+    "exactModuleDuplicates": 4,
+    "largestComputeFamily": {
+      "variants": 5,
+      "bytesEach": [
+        149294,
+        149294,
+        149294,
+        149294,
+        149294
+      ],
+      "differentLines": 111,
+      "sameTextAfterReplacingNumericLiterals": true,
+      "differingInputs": [
+        "partitionIndex",
+        "farLevel"
+      ],
+      "sourceOwner": "src/terrain/Grass.js _buildCandidateCompute(partitionIndex)",
+      "interpretation": "Compile-time partition/LOD specializations. Uniform sharing is a candidate; numeric normalization is not proof of semantic equivalence or a measured runtime improvement."
+    }
+  }
+}
